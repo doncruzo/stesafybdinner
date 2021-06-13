@@ -1,9 +1,35 @@
 <!DOCTYPE html>
-<html>
 
+  <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="utf-8">
   <title>Stesa-lasu</title>
+
+
+
+ <!--[if IE]>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+
+    <link href="IEStyleSheet.css" rel="stylesheet" />
+    <![endif]-->
+
+    <!--[if !IE]> -->
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" media="only screen" />
+    <link href="MobileStyleSheet.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px) , only screen and (-webkit-min-device-pixel-ratio: 2) , screen and (-webkit-device-pixel-ratio:1.5)" />
+    <!-- <![endif]-->
+
+<!--[if IEMobile]> 
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+
+    <link href="MobileStyleSheet.css" rel="stylesheet" />
+<![endif]-->
+
+
+
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
@@ -19,6 +45,8 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -41,13 +69,16 @@
 
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
+              <a class="nav-link" id="goat" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#pricing">Tickets</a>
+              <a class="nav-link" id="toby" href="#features">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#cta">Voting</a>
+              <a class="nav-link" id="cow" href="#pricing">Tickets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="tobi" href="#cta">Voting</a>
             </li>
           </ul>
 
@@ -61,8 +92,7 @@
 
         <div class="col-lg-6">
           <h1 class="big-heading">FYB Masked Dinner & Award night.</h1>
-          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> FEATURES</button>
-          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> RESERVATION</button>
+        
         </div>
 
        
@@ -112,14 +142,47 @@
     <div id="testimonial-carousel" class="carousel slide" data-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active container-fluid">
-          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-          <img class="testimonial-image" src="dog-img.jpg" alt="dog-profile">
-          <em>Pebbles, New York</em>
+
+          <h2 class="testimonial-text">Get ready to experince the very best dinner.</h2>
+          <img class="testimonial-image" src="STAN (1).jpeg" alt="dog-profile">
+          <em>D'Quintessential 20k21</em>
         </div>
         <div class="carousel-item container-fluid">
-          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-          <img class="testimonial-image" src="lady-img.jpg" alt="lady-profile">
-          <em>Beverly, Illinois</em>
+          <h2 class="testimonial-text">Get ready to experince the very best dinner.</h2>
+          <img class="testimonial-image" src="STAN (2).jpeg" alt="lady-profile">
+          <em>D'Quintessential 20k21</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Get ready to experince the very best dinner.</h2>
+          <img class="testimonial-image" src="STAN (3).jpeg" alt="lady-profile">
+          <em>D'Quintessential 20k21</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Get ready to experince the very best dinner.</h2>
+          <img class="testimonial-image" src="STAN (4).jpeg" alt="lady-profile">
+          <em>D'Quintessential 20k21</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Get ready to experince the very best dinner.</h2>
+          <img class="testimonial-image" src="STAN (5).jpeg" alt="lady-profile">
+          <em>D'Quintessential 20k21</em>
+        </div>
+      
+        
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Get ready to experince the very best dinner</h2>
+          <img class="testimonial-image" src="STAN (7).jpeg" alt="lady-profile">
+          <em>D'Quintessential 20k21</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Get ready to experince the very best dinner.</h2>
+          <img class="testimonial-image" src="STAN (8).jpeg" alt="lady-profile">
+          <em>D'Quintessential 20k21</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Get ready to experince the very best dinner</h2>
+          <img class="testimonial-image" src="STAN (9).jpeg" alt="lady-profile">
+          <em>D'Quintessential 20k21</em>
         </div>
       </div>
       <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
@@ -139,7 +202,7 @@
     <img class="press-logo" src="techcrunch.png" alt="tc-logo">
     <img class="press-logo" src="tnw.png" alt="tnw-logo">
     <img class="press-logo" src="bizinsider.png" alt="biz-insider-logo">
-    <img class="press-logo" src="imashable.png" alt="mashable-logo">
+    <img class="press-logo" src="mashable.png" alt="mashable-logo">
 
   </section>
 
@@ -214,8 +277,7 @@
     <div class="container-fluid">
 
       <h3 class="big-heading">VOTE FOR THE AWARD RECIPIENTS.</h3>
-      <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> VOTE</button>
-      <button class="download-button btn btn-lg brn-light" type="button"><i class="fab fa-google-play"></i> NOMINATE</button>
+      <a href="https://forms.gle/XVa2NVaQQxfU4v1G8" class="btn btn-primary btn-lg" role="button" aria-pressed="true">VOTE</a>
     </div>
   </section>
 
@@ -230,9 +292,10 @@
       <i class="social-icon fas fa-envelope"></i>
       <p>© Copyright 2021 STESA-LASU FYB</p>
     </div>
+    
   </footer>
 
-
+  <script src="index.js"></script>
 </body>
 
 </html>

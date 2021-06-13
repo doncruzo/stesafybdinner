@@ -53,9 +53,8 @@ p {
 .card-header{
   background-image: linear-gradient(to right, #504109, #ffaf04); 
 }
-.card{
-  align-items: center;
-}
+
+
 #features {
   position: relative;
 }

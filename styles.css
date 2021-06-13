@@ -4,40 +4,33 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
   font-family: "Montserrat-Bold";
   color: #0a1931;
 }
-
+h3{
+  color: #0a1931;
+}
 p {
   color: #0a1931;
 }
 
 /* Headings */
 
-.big-heading {
-  font-family: "Montserrat-Black";
-  font-size: 3.5rem;
-  line-height: 1.5;
-  color: white;
-}
 
-.section-heading {
-  font-size: 3rem;
-  line-height: 1.5;
-  color: #0a1931;
-}
+
+
 
 /* Containers */
 
-.container-fluid{
+.container-fluid1{
   padding: 7% 15%;
 }
 
 /* Sections */
 
-.colored-section {
-  background-color: #0a1931;
+.colored-section1 {
+  background-image: linear-gradient(to right, #504109, #ffaf04); 
   color: #fff;
 }
 
@@ -45,65 +38,21 @@ p {
   background-color: #fff;
 }
 
-/* Navigation Bar */
-
-.navbar {
-  padding: 0 0 4.5rem;
+#pricing {
+  padding: 100px;
 }
 
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bold;
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-.nav-item {
-  padding: 0 18px;
+.pricing-column {
+  padding: 3% 2%;
 }
-
-.nav-link {
-  font-size: 1.2rem;
-  font-family: "Montserrat-Light";
+.card-header{
+  background-image: linear-gradient(to right, #504109, #ffaf04); 
 }
-
-/* Buttons */
-
-.download-button {
-  margin: 5% 3% 5% 0;
-}
-
-/* Title Section */
-
-#title {
-  background-image: url("mask.jpg");
-
-   /* Full height */
-   height: 100%;
-
-   /* Center and scale the image nicely */
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   color: #0a1931;
-   text-align: left;
- }
- 
-
-
-#title .container-fluid {
-  padding: 3% 15% 7%;
-}
-
-/* Title Image */
-
-.title-image {
-  width: 90%;
-  transform: rotate(25deg);
-  position: absolute;
-  left: 30%;
-}
-
-/* Features Section */
 
 #features {
   position: relative;
@@ -111,7 +60,7 @@ p {
 
 .feature-title {
   font-size: 1.5rem;
-  color: #0a1931;
+ 
 }
 
 .feature-box {
@@ -119,18 +68,18 @@ p {
 }
 
 .icon {
-  color: #0a1931;
+  color: #daae0b;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #0a1931;
+  background-image: linear-gradient(to right, #504109, #ffaf04); 
 }
 
 /* Testimonial Section */
 
 #testimonials {
-  background-color:#0a1931;
+  background-image: linear-gradient(to right, #504109, #ffaf04); 
 }
 
 .testimonial-text {
@@ -147,8 +96,9 @@ p {
 
 
 #press {
-  background-color: #0a1931;
+
   padding-bottom: 3%;
+  background-image: linear-gradient(to right, #504109, #ffaf04); 
 }
 
 .press-logo {
@@ -177,18 +127,3 @@ p {
 /* Footer Section */
 
 
-.social-icon {
-  margin: 20px 10px;
-}
-
-@media (max-width: 1028px) {
-
-  #title {
-    text-align: center;
-  }
-
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
-}
